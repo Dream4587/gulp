@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 @@include('html/head.html', {
-    'title': 'Главная'
+'title': 'Главная'
 })
+
 <body>
-@@include('html/header.html')
-<main>
-    <img src="@img/tpmato.jpg" alt="">
-</main>
-@@include('html/footer.html')
-<script src="js/app.min.js"></script>
+    @@include('html/header.html')
+    <main>
+        <img src="@img/tpmato.jpg" alt="">
+        <h1>Hello, Gulp</h1>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dicta consequuntur illum rerum, neque
+            suscipit fugit eaque optio. Architecto atque aspernatur doloremque aliquam officia labore necessitatibus
+            nihil et laudantium facilis.</span>
+    </main>
+    @@include('html/footer.html')
+    <script src="js/app.min.js"></script>
 </body>
+
 </html>
